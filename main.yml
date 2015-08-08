@@ -38,6 +38,8 @@
         - php-mbstring
         - php-gd
         - php-xml
+        - php-mcrypt
+        - php-intl
       notify:
         - restart apache
     - name: copy php.ini.custom
